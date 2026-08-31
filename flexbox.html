@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+        #window {
+            width: 960px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: black;
+        }
+        .row {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .col{
+            color: white;
+            background-color: yellow;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 300px;
+            height: 100px;
+        }
+        .col8{
+            color: white;
+            background-color: yellow;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 620px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="window">
+        <div class="row">
+            <div class="col">row one col one</div>
+            <div class="col">row one col two</div>
+            <div class="col">row one col three</div>
+        </div>
+        <div class="row">
+            <div class="col8">row two col one</div>
+            <div class="col">row two col two</div>
+        </div>
+    </div>
+</body>
+</html>

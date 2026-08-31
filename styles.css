@@ -1,0 +1,23 @@
+h4, p {
+    color: green;
+    text-align: center;
+    border: 1px solid black;
+}
+span {
+    color: red;
+    font-size: 20px;
+}
+li {
+    border: 1px solid black;
+    list-style-type: none;
+}
+#blueColor {
+    color: blue;
+    font-size: 20px;
+}
+
+ul {
+    position: relative;
+    left: 150px;
+    top: 500px
+}
