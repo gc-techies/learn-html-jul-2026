@@ -17,7 +17,7 @@
             margin-bottom: 10px;
         }
         .col{
-            color: white;
+            color: black;
             background-color: yellow;
             margin-left: 10px;
             margin-right: 10px;
@@ -31,6 +31,40 @@
             margin-right: 10px;
             width: 620px;
             height: 100px;
+        }
+        @media screen and (max-width: 750px) and (orientation: landscape) {
+            #window {
+                width: 100%;
+            }
+            .col {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .col8 {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        @media screen and (max-width: 450px) {
+            #window {
+                width: 100%;
+            }
+            .col {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .col8 {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+            }
         }
     </style>
 </head>
